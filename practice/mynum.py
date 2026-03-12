@@ -6,7 +6,7 @@ upper = int(input("Enter upper number: "))
 number = random.randint(lower, upper)
 
 while True:
-    guess = int(input("Guess the number: "))
+    guess = int(input("guess the number: "))
 
     if guess == number:
         print("Correct! You guessed the number.")
